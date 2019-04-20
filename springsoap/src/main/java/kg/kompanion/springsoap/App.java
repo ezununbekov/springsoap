@@ -19,7 +19,7 @@ public class App
     @SuppressWarnings("resource")
 	public static void main( String[] args )
     {
-    	int a=10, b=6;
+    	int a=10, b=5;
     	ApplicationContext ctx;
     	//ctx = new ClassPathXmlApplicationContext("ctx.xml");
     	ctx = new AnnotationConfigApplicationContext("kg.kompanion.springsoap.config");
