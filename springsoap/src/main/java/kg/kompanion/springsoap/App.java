@@ -4,14 +4,14 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import kg.kompanion.springsoap.pojo.Add;
-import kg.kompanion.springsoap.pojo.AddResponse;
-import kg.kompanion.springsoap.pojo.Divide;
-import kg.kompanion.springsoap.pojo.DivideResponse;
-import kg.kompanion.springsoap.pojo.Multiply;
-import kg.kompanion.springsoap.pojo.MultiplyResponse;
-import kg.kompanion.springsoap.pojo.Subtract;
-import kg.kompanion.springsoap.pojo.SubtractResponse;
+import kg.kompanion.springsoap.pojo.wsdl.Add;
+import kg.kompanion.springsoap.pojo.wsdl.AddResponse;
+import kg.kompanion.springsoap.pojo.wsdl.Divide;
+import kg.kompanion.springsoap.pojo.wsdl.DivideResponse;
+import kg.kompanion.springsoap.pojo.wsdl.Multiply;
+import kg.kompanion.springsoap.pojo.wsdl.MultiplyResponse;
+import kg.kompanion.springsoap.pojo.wsdl.Subtract;
+import kg.kompanion.springsoap.pojo.wsdl.SubtractResponse;
 import kg.kompanion.springsoap.service.CalculatorService;
 
 public class App 
